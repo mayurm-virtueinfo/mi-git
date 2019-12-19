@@ -176,7 +176,17 @@
         "version": "",
         "status": "",
         "Required": [],
-        "Property": [],
+        "Property": [
+            {
+                "name": "mayur",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": ""
+            }
+        ],
         "Relationship": [
             {
                 "name": "",
