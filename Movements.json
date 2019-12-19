@@ -175,16 +175,14 @@
         "description": "",
         "version": "",
         "status": "",
-        "Required": [
-            "newAttribute"
-        ],
+        "Required": [],
         "Property": [
             {
                 "name": "newAttribute",
                 "description": "The code specifying the type of transport event.",
                 "isID": false,
                 "status": "",
-                "cardinality": "1",
+                "cardinality": "",
                 "tags": [
                     {
                         "name": "UID",
@@ -194,18 +192,8 @@
                 ],
                 "defaultValue": "",
                 "DataType": {
-                    "type": "Enum",
-                    "name": "TransportEventType_Code",
-                    "Enum": [
-                        "Call",
-                        "Arrival",
-                        "Departure",
-                        "Loading",
-                        "UnLoading",
-                        "BorderCrossing",
-                        "TransShipment",
-                        "Stop"
-                    ]
+                    "type": "Int32",
+                    "name": "newAttribute"
                 }
             }
         ],
