@@ -175,10 +175,12 @@
         "description": "",
         "version": "",
         "status": "",
-        "Required": [],
+        "Required": [
+            "newAttribute"
+        ],
         "Property": [
             {
-                "name": "mayur",
+                "name": "newAttribute",
                 "description": "The code specifying the type of transport event.",
                 "isID": false,
                 "status": "",
