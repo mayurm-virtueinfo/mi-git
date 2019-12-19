@@ -179,12 +179,32 @@
         "Property": [
             {
                 "name": "mayur",
-                "description": "",
+                "description": "The code specifying the type of transport event.",
                 "isID": false,
                 "status": "",
-                "cardinality": "",
-                "tags": [],
-                "defaultValue": ""
+                "cardinality": "1",
+                "tags": [
+                    {
+                        "name": "UID",
+                        "value": "UDT000007\nUN01004793",
+                        "kind": "hidden"
+                    }
+                ],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Enum",
+                    "name": "TransportEventType_Code",
+                    "Enum": [
+                        "Call",
+                        "Arrival",
+                        "Departure",
+                        "Loading",
+                        "UnLoading",
+                        "BorderCrossing",
+                        "TransShipment",
+                        "Stop"
+                    ]
+                }
             }
         ],
         "Relationship": [
