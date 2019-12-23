@@ -176,7 +176,21 @@
         "version": "",
         "status": "",
         "Required": [],
-        "Property": [],
+        "Property": [
+            {
+                "name": "Attribute1",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Int32",
+                    "name": "Attribute1"
+                }
+            }
+        ],
         "Relationship": [
             {
                 "name": "",
