@@ -1977,14 +1977,14 @@
                 }
             },
             {
-                "name": "temp",
+                "name": "Faizanvahevaria",
                 "description": "",
                 "isID": false,
                 "cardinality": "",
                 "defaultValue": "",
                 "DataType": {
                     "type": "Int32",
-                    "name": "temp"
+                    "name": "Faizanvahevaria"
                 }
             }
         ],
