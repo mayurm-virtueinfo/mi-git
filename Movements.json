@@ -176,7 +176,21 @@
         "version": "",
         "status": "",
         "Required": [],
-        "Property": [],
+        "Property": [
+            {
+                "name": "Attribute1",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Entity",
+                    "name": "TransportEvent"
+                }
+            }
+        ],
         "Relationship": [
             {
                 "name": "",
@@ -1962,29 +1976,40 @@
         "from": {},
         "to": {},
         "Required": [
-            "id"
+            "faizan1"
         ],
         "Property": [
             {
-                "name": "id",
+                "name": "faizan1",
                 "description": "",
                 "isID": false,
                 "cardinality": "1",
                 "defaultValue": "",
                 "DataType": {
                     "type": "string",
-                    "name": "id"
+                    "name": "faizan1"
                 }
             },
             {
-                "name": "Faizanvahevaria",
+                "name": "temp",
                 "description": "",
                 "isID": false,
                 "cardinality": "",
                 "defaultValue": "",
                 "DataType": {
                     "type": "Int32",
-                    "name": "Faizanvahevaria"
+                    "name": "temp"
+                }
+            },
+            {
+                "name": "FaizanVahevaria",
+                "description": "",
+                "isID": false,
+                "cardinality": "",
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Int32",
+                    "name": "FaizanVahevaria"
                 }
             }
         ],
@@ -2026,7 +2051,7 @@
         ],
         "Operation": [
             {
-                "name": "POST",
+                "name": "POST1",
                 "Parameter": [
                     {
                         "name": "Voyage",
@@ -2034,7 +2059,7 @@
                         "status": "",
                         "DataType": {
                             "type": "Entity",
-                            "name": "Voyage"
+                            "name": "Journey"
                         }
                     }
                 ]
