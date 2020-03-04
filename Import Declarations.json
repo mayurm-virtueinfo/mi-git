@@ -11,7 +11,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "CreateTimestamp",
+                "name": "Temp-CreateTimestamp",
                 "description": "The date and time when a record was created.\n",
                 "isID": false,
                 "status": "",
@@ -69,7 +69,7 @@
             },
             {
                 "name": "DocumentSubType",
-                "description": "The document subtype of the import declaration.\n\nCode Type = 'HEADNATTYP'\n",
+                "description": "   sThe document subtype of the import declaration.\n\nCode Type = 'HEADNATTYP'\n",
                 "isID": false,
                 "status": "",
                 "cardinality": "0..1",
