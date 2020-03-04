@@ -897,7 +897,7 @@
                 ],
                 "defaultValue": "",
                 "DataType": {
-                    "type": "Entity",
+                    "type": "Entity1",
                     "name": "Code"
                 }
             },
