@@ -1482,6 +1482,19 @@
                     "type": "Text",
                     "name": "AttrMayur"
                 }
+            },
+            {
+                "name": "AttrFaizan",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Text",
+                    "name": "AttrFaizan"
+                }
             }
         ],
         "Relationship": [
