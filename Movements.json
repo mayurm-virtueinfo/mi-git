@@ -1471,7 +1471,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttrMayur",
+                "name": "AttrMayur1",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1480,7 +1480,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "AttrMayur"
+                    "name": "AttrMayur1"
                 }
             },
             {
