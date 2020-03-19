@@ -1495,6 +1495,19 @@
                     "type": "Text",
                     "name": "AttrFaizan"
                 }
+            },
+            {
+                "name": "AttrMahesh",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Text",
+                    "name": "AttrMahesh"
+                }
             }
         ],
         "Relationship": [
