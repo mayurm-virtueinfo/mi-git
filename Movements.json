@@ -1508,6 +1508,19 @@
                     "type": "Text",
                     "name": "AttrMahesh"
                 }
+            },
+            {
+                "name": "Attribute1",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Text",
+                    "name": "Attribute1"
+                }
             }
         ],
         "Relationship": [
