@@ -1,5 +1,5 @@
 {
-    "type": "package",
+    "type": "package1",
     "name": "Movements",
     "MovementPartyRoleCode": {
         "name": "MovementPartyRoleCode",
