@@ -215,6 +215,19 @@
                     "type": "Text",
                     "name": "AttrMahesh"
                 }
+            },
+            {
+                "name": "AttrHanif",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Entity",
+                    "name": "Text"
+                }
             }
         ],
         "Relationship": [
