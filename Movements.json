@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "Movements1",
+    "name": "Movements",
     "MovementPartyRoleCode": {
         "name": "MovementPartyRoleCode",
         "type": "Enum",
@@ -467,10 +467,6 @@
                     "name": "TransportMovement",
                     "type": "Entity"
                 }
-            },
-            {
-                "name": "VoyageLifecycle",
-                "description": "The state lifecycle of a trasnport movement"
             }
         ]
     },
