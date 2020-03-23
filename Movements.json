@@ -178,7 +178,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttrTarang",
+                "name": "AttrFaizan1",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -187,20 +187,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "AttrTarang"
-                }
-            },
-            {
-                "name": "AttrFaizan",
-                "description": "",
-                "isID": false,
-                "status": "",
-                "cardinality": "",
-                "tags": [],
-                "defaultValue": "",
-                "DataType": {
-                    "type": "Text",
-                    "name": "AttrFaizan"
+                    "name": "AttrFaizan1"
                 }
             },
             {
@@ -467,6 +454,10 @@
                     "name": "TransportMovement",
                     "type": "Entity"
                 }
+            },
+            {
+                "name": "VoyageLifecycle",
+                "description": "The state lifecycle of a trasnport movement"
             }
         ]
     },
