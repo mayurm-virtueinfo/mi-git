@@ -178,7 +178,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttrFaizan1",
+                "name": "AttrFaizan",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -187,7 +187,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "AttrFaizan1"
+                    "name": "AttrFaizan"
                 }
             },
             {
