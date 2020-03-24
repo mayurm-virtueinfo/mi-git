@@ -189,6 +189,32 @@
                     "type": "Entity",
                     "name": "Text"
                 }
+            },
+            {
+                "name": "AttributeMayur",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Entity",
+                    "name": "Text"
+                }
+            },
+            {
+                "name": "AttributeMahesh",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Entity",
+                    "name": "Text"
+                }
             }
         ],
         "Relationship": [
