@@ -178,32 +178,6 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttrFaizan",
-                "description": "",
-                "isID": false,
-                "status": "",
-                "cardinality": "",
-                "tags": [],
-                "defaultValue": "",
-                "DataType": {
-                    "type": "Text",
-                    "name": "AttrFaizan"
-                }
-            },
-            {
-                "name": "AttrMahesh",
-                "description": "",
-                "isID": false,
-                "status": "",
-                "cardinality": "",
-                "tags": [],
-                "defaultValue": "",
-                "DataType": {
-                    "type": "Text",
-                    "name": "AttrMahesh"
-                }
-            },
-            {
                 "name": "AttrHanif",
                 "description": "",
                 "isID": false,
