@@ -178,19 +178,6 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttrHanif",
-                "description": "",
-                "isID": false,
-                "status": "",
-                "cardinality": "",
-                "tags": [],
-                "defaultValue": "",
-                "DataType": {
-                    "type": "Entity",
-                    "name": "Text"
-                }
-            },
-            {
                 "name": "AttributeMayur1",
                 "description": "",
                 "isID": false,
