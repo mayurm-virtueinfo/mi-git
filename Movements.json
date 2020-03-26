@@ -178,7 +178,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "AttributeMayur1",
+                "name": "AttributeMahesh",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -191,7 +191,20 @@
                 }
             },
             {
-                "name": "AttributeMahesh",
+                "name": "Attribute1",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "tags": [],
+                "defaultValue": "",
+                "DataType": {
+                    "type": "Entity",
+                    "name": "Text"
+                }
+            },
+            {
+                "name": "Attribute2",
                 "description": "",
                 "isID": false,
                 "status": "",
