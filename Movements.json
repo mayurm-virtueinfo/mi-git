@@ -176,11 +176,11 @@
         "version": "",
         "status": "",
         "Required": [
-            "OccurrenceTime"
+            "OccurrenceTime1"
         ],
         "Property": [
             {
-                "name": "OccurrenceTime",
+                "name": "OccurrenceTime1",
                 "description": "The actual date, time, date time, or other date time value of the occurrence of this transport event.",
                 "isID": false,
                 "status": "",
@@ -195,7 +195,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "DateTime",
-                    "name": "OccurrenceTime"
+                    "name": "OccurrenceTime1"
                 }
             },
             {
@@ -238,25 +238,6 @@
             }
         ],
         "Relationship": [
-            {
-                "name": "CertifyingTradeParty",
-                "description": "A certifying party for this transport event.",
-                "type": "aggregation",
-                "source": {
-                    "name": "TransportEvent",
-                    "type": "Entity",
-                    "cardinality": "",
-                    "navigable": true,
-                    "package": "Movements"
-                },
-                "target": {
-                    "name": "TransportParty",
-                    "type": "Entity",
-                    "cardinality": "0..*",
-                    "navigable": true,
-                    "package": "Party"
-                }
-            },
             {
                 "name": "RelatedLocation",
                 "description": "The location of a conveyance facility related to this transport event.",
@@ -920,27 +901,7 @@
                 }
             }
         ],
-        "Relationship": [
-            {
-                "name": "PostalTradeAddress",
-                "description": "The postal trade address information for this logistics related location.",
-                "type": "interface",
-                "source": {
-                    "name": "LogisticsLocation",
-                    "type": "Entity",
-                    "cardinality": "",
-                    "navigable": true,
-                    "package": "Movements"
-                },
-                "target": {
-                    "name": "TradeAddress",
-                    "type": "Entity",
-                    "cardinality": "0..1",
-                    "navigable": true,
-                    "package": "Party"
-                }
-            }
-        ]
+        "Relationship": []
     },
     "TransportMeans": {
         "type": "Entity",
@@ -1816,55 +1777,7 @@
                 }
             }
         ],
-        "Relationship": [
-            {
-                "name": "MovementParty",
-                "description": "",
-                "type": "aggregation",
-                "source": {
-                    "name": "TransportMovement",
-                    "type": "Entity",
-                    "cardinality": "",
-                    "navigable": true,
-                    "package": "Movements"
-                },
-                "target": {
-                    "name": "TransportParty",
-                    "type": "Entity",
-                    "cardinality": "0..*",
-                    "navigable": true,
-                    "package": "Party"
-                }
-            },
-            {
-                "name": "",
-                "description": "",
-                "type": "associationClassLink",
-                "association": {
-                    "name": "MovementParty",
-                    "description": "",
-                    "type": "aggregation",
-                    "source": {
-                        "name": "TransportMovement",
-                        "type": "Entity",
-                        "cardinality": "",
-                        "navigable": true,
-                        "package": "Movements"
-                    },
-                    "target": {
-                        "name": "TransportParty",
-                        "type": "Entity",
-                        "cardinality": "0..*",
-                        "navigable": true,
-                        "package": "Party"
-                    }
-                },
-                "class": {
-                    "name": "TransportMovementParty",
-                    "type": "Entity"
-                }
-            }
-        ]
+        "Relationship": []
     },
     "TransportMeansParty": {
         "type": "Entity",
@@ -1889,55 +1802,7 @@
                 }
             }
         ],
-        "Relationship": [
-            {
-                "name": "MeansParty",
-                "description": "",
-                "type": "aggregation",
-                "source": {
-                    "name": "TransportMeans",
-                    "type": "Entity",
-                    "cardinality": "",
-                    "navigable": true,
-                    "package": "Movements"
-                },
-                "target": {
-                    "name": "TransportParty",
-                    "type": "Entity",
-                    "cardinality": "0..*",
-                    "navigable": true,
-                    "package": "Party"
-                }
-            },
-            {
-                "name": "",
-                "description": "",
-                "type": "associationClassLink",
-                "association": {
-                    "name": "MeansParty",
-                    "description": "",
-                    "type": "aggregation",
-                    "source": {
-                        "name": "TransportMeans",
-                        "type": "Entity",
-                        "cardinality": "",
-                        "navigable": true,
-                        "package": "Movements"
-                    },
-                    "target": {
-                        "name": "TransportParty",
-                        "type": "Entity",
-                        "cardinality": "0..*",
-                        "navigable": true,
-                        "package": "Party"
-                    }
-                },
-                "class": {
-                    "name": "TransportMeansParty",
-                    "type": "Entity"
-                }
-            }
-        ]
+        "Relationship": []
     },
     "Vessels": {
         "type": "Event",
