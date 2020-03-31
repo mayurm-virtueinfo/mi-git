@@ -1415,7 +1415,7 @@
                 }
             },
             {
-                "name": "DD",
+                "name": "AA",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1424,7 +1424,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "DD"
+                    "name": "AA"
                 }
             },
             {
