@@ -1415,7 +1415,7 @@
                 }
             },
             {
-                "name": "Mayur",
+                "name": "Mayur2",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1424,7 +1424,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "Mayur"
+                    "name": "Mayur2"
                 }
             },
             {
