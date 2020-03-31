@@ -1415,7 +1415,7 @@
                 }
             },
             {
-                "name": "Attribute1",
+                "name": "Mayur",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1424,7 +1424,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "Attribute1"
+                    "name": "Mayur"
                 }
             },
             {
