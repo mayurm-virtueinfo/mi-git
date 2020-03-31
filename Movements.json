@@ -1415,7 +1415,7 @@
                 }
             },
             {
-                "name": "CC",
+                "name": "DD",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1424,7 +1424,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "CC"
+                    "name": "DD"
                 }
             },
             {
