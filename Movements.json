@@ -1402,7 +1402,7 @@
         "Required": [],
         "Property": [
             {
-                "name": "Mayur",
+                "name": "Mayur3",
                 "description": "",
                 "isID": false,
                 "status": "",
@@ -1411,7 +1411,7 @@
                 "defaultValue": "",
                 "DataType": {
                     "type": "Text",
-                    "name": "Mayur"
+                    "name": "Mayur3"
                 }
             },
             {
